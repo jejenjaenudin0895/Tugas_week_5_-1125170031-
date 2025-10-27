@@ -20,6 +20,21 @@ class MyHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar:AppBar(
+        title: Text('latihan flutter Week 5 jejen jaenudin'),
+        backgroundColor: Colors.pinkAccent,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))
+        ),
+
+      ),
+      body: Center(
+        child: Text('Selamat datang di latihan Flutter ',
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+      ),
+
+    );
   }
 }
