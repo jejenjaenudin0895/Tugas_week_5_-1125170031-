@@ -29,7 +29,8 @@ class MyHome extends StatelessWidget {
         ),
       ),
         body: Container(
-        color: Colors.orange
+        color: Colors.orange,
+        child: Text('Hello Flutter'),
       ),
     );
   } 
