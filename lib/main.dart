@@ -27,14 +27,12 @@ class MyHome extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))
         ),
-
       ),
-      body: Center(
-        child: Text('Selamat datang di latihan Flutter ',
-        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-        ),
+        body: Container(
+        color: Colors.orange
       ),
-
     );
-  }
+  } 
+
+
 }
