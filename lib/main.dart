@@ -28,10 +28,16 @@ class MyHome extends StatelessWidget {
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30))
         ),
       ),
-        body: Container(
-        color: Colors.orange,
-        child: Text('Hello Flutter'),
-      ),
+        body: 
+        Container(
+          width : 200, 
+            height : 200, 
+              color : Colors.blue, 
+                child: Align(
+              alignment : AlignmentGeometry.bottomLeft, 
+              child : Text("APLIKASI PERTAMA"),
+              ),
+        )
     );
   } 
 
