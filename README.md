@@ -36,5 +36,8 @@ Mengatur posisi child di dalam Container.
 ![Screenshoot tugas kamera](images/container1.png)
 ![Screenshoot tugas kamera](images/container1code.png)
 
+10. menyisipkan gambar pada contener
+
+![Screenshoot tugas kamera](images/gambar.png)
 
 "# Tugas_week_5_-1125170031-" 

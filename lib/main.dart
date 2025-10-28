@@ -38,9 +38,17 @@
                     Container(
                       width: 200,
                       height: 200,
-                      color: Colors.red,
+                      
                       padding: EdgeInsets.only(left: 20, top:10),
                       alignment: Alignment.bottomLeft,
+                      decoration: BoxDecoration(
+                       color: Colors.red,
+                         borderRadius: BorderRadius.circular(15),
+                         image: const DecorationImage(
+                           image: AssetImage('assets/images/pialadunia.jpg'),
+                            fit: BoxFit.cover,
+                         ),
+                      ),
                       child: Text(
                         "Container 1",
                         style: TextStyle(
