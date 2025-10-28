@@ -32,4 +32,9 @@ Mengatur posisi child di dalam Container.
 ![Screenshoot tugas kamera](images/roworcolumn.png)
 ![Screenshoot tugas kamera](images/roworcolumncode.png)
 
+9. membuat container 3 buah
+![Screenshoot tugas kamera](images/container1.png)
+![Screenshoot tugas kamera](images/container1code.png)
+
+
 "# Tugas_week_5_-1125170031-" 
